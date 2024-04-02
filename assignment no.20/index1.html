@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI with Argument and Return</title>
+</head>
+<body>
+    <script>
+        function calSimpleInterest(principal , rate, time){
+            const simpleinterest = principal * rate * time / 100;
+            return simpleinterest;
+        }
+
+        const SI = calSimpleInterest(4700, 0.098, 5);
+        console.log(`Simple Interest : ${SI}`);
+    </script>
+</body>
+</html>
